@@ -29,7 +29,7 @@ Apollo-6.0.0 driver for zvision lidar.
 
 
 ```bash
-	cd /apollo
+    cd /apollo
     bash apollo.sh build
  ```
    
@@ -37,9 +37,9 @@ Apollo-6.0.0 driver for zvision lidar.
 You can run a sample dag file in the modules/drivers/zvision/dag directory. For reference, directory named [offline_calibration](https://github.com/ZVISION-lidar/zvision_apollo_driver/tree/master/apollo/modules/drivers/zvision/dag/offline_calibration) provides the samples which you can specify a local calibration file for the pointcloud, so [online_calibration](https://github.com/ZVISION-lidar/zvision_apollo_driver/tree/master/apollo/modules/drivers/zvision/dag/online_calibration) is.
 1. Run zvision ML30 lidar with offline calibration.
    ```
-    mainboard -d /apollo/modules/drivers/zvision/dag/offline_calibration/zvision_ml30.dag
+    mainboard -d /apollo/modules/drivers/lidar/zvision/dag/offline_calibration/zvision_ml30.dag
     ```
 2. Run zvision ML30SA1 lidar with online calibration.
     ```
-    mainboard -d /apollo/modules/drivers/zvision/dag/online_calibration/zvision_ml30sa1.dag
+    mainboard -d /apollo/modules/drivers/lidar/zvision/dag/online_calibration/zvision_ml30sa1.dag
     ```
