@@ -39,7 +39,7 @@ You can run a sample dag file in the modules/drivers/zvision/dag directory. For 
    ```
     mainboard -d /apollo/modules/drivers/lidar/zvision/dag/offline_calibration/zvision_ml30.dag
     ```
-2. Run zvision ML30SA1 lidar with online calibration.
+2. Run zvision ML30S lidar(ML30S-A1, ML30S-B1, ML30S-B2) with online calibration.
     ```
     mainboard -d /apollo/modules/drivers/lidar/zvision/dag/online_calibration/zvision_ml30sa1.dag
     ```
